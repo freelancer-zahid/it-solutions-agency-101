@@ -1,0 +1,588 @@
+/* ===========top to bottom ==========*/
+
+section .section-title {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+/* ===========Hero section ==========*/
+
+#hero {
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid white;
+}
+#hero .container {
+    padding-top: 80px;
+}
+.hero .hero-left {
+    padding-top: 80px ;
+}
+.hero ul  {    
+    list-style-type:none;
+    margin-top: 50px;
+}
+#hero ul li {
+    padding: 10px 0 0 28px;
+    position: relative;
+  }
+  
+  #hero ul i {
+    left: 0;
+    top: 7px;
+    position: absolute;
+    font-size: 20px;
+    color: #5a5af3;
+  }
+#hero .btn-get-started, #hero .btn-get-quote  {
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    padding: 8px 30px 9px 30px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    transition: 0.5s;
+    border-radius: 50px;
+}
+#hero a {
+    text-decoration: none;
+}
+#hero .btn-get-started {
+    background: #5a5af3;
+    color: #fff;
+    border: 2px solid #5a5af3;
+    margin-right: 10px;
+  }
+  
+  #hero .btn-get-started:hover {
+    background: #7272f5;
+    border-color: #7272f5;
+  }
+  
+  #hero .btn-get-quote {
+    color: #5a5af3;
+    border: 2px solid #5a5af3;
+  }
+  
+  #hero .btn-get-quote:hover {
+    background: #5a5af3;
+    color: #fff;
+  }
+ /* ===========About section ==========*/
+#about {
+    padding-top: 50px;
+}
+ .about ul  {    
+    list-style-type:none;
+    margin-top: 50px;
+}
+#about ul li {
+    padding: 10px 0 0 28px;
+    position: relative;
+  }
+  
+#about ul i {
+    left: 0;
+    top: 7px;
+    position: absolute;
+    font-size: 20px;
+    color: #5a5af3;
+  }
+#about h5 {
+    padding-top:30px;
+}
+
+
+ /* ===========Why US ==========*/
+ .why-us {
+    padding-top: 50;
+  }
+  
+  .why-us .box {
+    padding: 50px 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .why-us .box span {
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+    color: #b9b9fa;
+  }
+  
+  .why-us .box h4 {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0;
+    margin: 20px 0;
+    color: #434175;
+  }
+  
+  .why-us .box p {
+    color: #aaaaaa;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .why-us .box:hover {
+    background: #5a5af3;
+    padding: 30px 30px 70px 30px;
+    box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+  }
+  
+  .why-us .box:hover span, .why-us .box:hover h4, .why-us .box:hover p {
+    color: #fff;
+  }
+  
+   /* ===========Count==========*/
+
+    /* ===========Service ==========*/
+
+    #service {
+        padding-top: 30px;
+    }
+    .service .service-box {
+        text-align: center;
+        padding: 70px 20px 80px 20px;
+        transition: all ease-in-out 0.3s;
+        background: #fff;
+        box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+        
+      }
+      #service .box {
+          padding-bottom: 10px;
+      }
+
+
+
+      
+    /* ===========Feature==========*/
+    #feature {
+        padding-top: 60px;
+    }
+      #feature .icon-box {
+        display: flex;
+       
+        margin-bottom: 5px;
+        align-items: center;
+        padding: 20px;
+        transition: ease-in-out 0.7s;
+      
+        box-shadow: 5px 8px 7px 0px rgba(27,32,225,0.75);
+
+      }
+
+
+
+
+
+ /* ===========Team ==========*/
+        #team{
+            padding-top: 50px;
+        }
+ 
+      .team .member {
+        margin-bottom: 20px;
+        overflow: hidden;
+        text-align: center;
+        border-radius: 5px;
+        background: #fff;
+        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+      }
+      
+      .team .member .member-img {
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .team .member .social {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 40px;
+        opacity: 0;
+        transition: ease-in-out 0.3s;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.85);
+      }
+      
+      .team .member .social a {
+        transition: color 0.3s;
+        color: #434175;
+        margin: 0 10px;
+        padding-top: 8px;
+        display: inline-block;
+      }
+      
+      .team .member .social a:hover {
+        color: #5a5af3;
+      }
+      
+      .team .member .social i {
+        font-size: 18px;
+        margin: 0 2px;
+      }
+      
+      .team .member .member-info {
+        padding: 25px 15px;
+      }
+      
+      .team .member .member-info h4 {
+        font-weight: 700;
+        margin-bottom: 5px;
+        font-size: 18px;
+        color: #434175;
+      }
+      
+      .team .member .member-info span {
+        display: block;
+        font-size: 13px;
+        font-weight: 400;
+        color: #aaaaaa;
+      }
+      
+      .team .member .member-info p {
+        font-style: italic;
+        font-size: 14px;
+        line-height: 26px;
+        color: #777777;
+      }
+      
+      .team .member:hover .social {
+        opacity: 1;
+      }
+      
+
+
+
+
+ /* ===========Contact ==========*/
+ #contact{
+    padding-top:50px;
+}
+ .contact .info-box {
+    color: #444444;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    padding: 20px 0 30px 0;
+    background: #fff;
+  }
+  
+  .contact .info-box i {
+    font-size: 32px;
+    color: #5a5af3;
+    border-radius: 50%;
+    padding: 8px;
+  }
+  
+  .contact .info-box h3 {
+    font-size: 20px;
+    color: #777777;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+  
+  .contact .info-box p {
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  
+  .contact .php-email-form {
+    background: #fff;
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    padding: 30px;
+  }
+  
+  .contact .php-email-form .validate {
+    display: none;
+    color: red;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    font-size: 13px;
+  }
+  
+  .contact .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
+  .contact .php-email-form .error-message br + br {
+    margin-top: 25px;
+  }
+  
+  .contact .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
+  .contact .php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .contact .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+  }
+  
+  .contact .php-email-form input, .contact .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+    border-color: #5a5af3;
+  }
+  
+  .contact .php-email-form input {
+    padding: 20px 15px;
+  }
+  
+  .contact .php-email-form textarea {
+    padding: 12px 15px;
+  }
+  
+  .contact .php-email-form button[type="submit"] {
+    background: #5a5af3;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+  
+  .contact .php-email-form button[type="submit"]:hover {
+    background: #7272f5;
+  }
+  
+  @-webkit-keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+
+      
+ /* ===========Footer ==========*/
+ #footer {
+    color: #444444;
+    font-size: 14px;
+    background: #eeeef5;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  #footer .footer-top {
+    padding: 60px 0 30px 0;
+    background: #fff;
+  }
+  
+  #footer .footer-top .footer-contact {
+    margin-bottom: 30px;
+  }
+  
+  #footer .footer-top .footer-contact h3 {
+    font-size: 28px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    color: #5a5af3;
+  }
+  
+  #footer .footer-top .footer-contact p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Raleway", sans-serif;
+    color: #777777;
+  }
+  
+  #footer .footer-top h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #434175;
+    position: relative;
+    padding-bottom: 12px;
+  }
+  
+  #footer .footer-top .footer-links {
+    margin-bottom: 30px;
+  }
+  
+  #footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #footer .footer-top .footer-links ul i {
+    padding-right: 2px;
+    color: #5a5af3;
+    font-size: 18px;
+    line-height: 1;
+  }
+  
+  #footer .footer-top .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  #footer .footer-top .footer-links ul li:first-child {
+    padding-top: 0;
+  }
+  
+  #footer .footer-top .footer-links ul a {
+    color: #777777;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+  }
+  
+  #footer .footer-top .footer-links ul a:hover {
+    text-decoration: none;
+    color: #5a5af3;
+  }
+  
+  #footer .footer-newsletter {
+    font-size: 15px;
+  }
+  
+  #footer .footer-newsletter h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    position: relative;
+    padding-bottom: 12px;
+  }
+  
+  #footer .footer-newsletter form {
+    margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 50px;
+    text-align: left;
+    border: 1px solid #b9b9fa;
+  }
+  
+  #footer .footer-newsletter form input[type="email"] {
+    border: 0;
+    padding: 4px 8px;
+    width: calc(100% - 100px);
+  }
+  
+  #footer .footer-newsletter form input[type="submit"] {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px;
+    background: #5a5af3;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 50px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  #footer .footer-newsletter form input[type="submit"]:hover {
+    background: #7272f5;
+  }
+  
+  #footer .credits {
+    padding-top: 5px;
+    font-size: 13px;
+    color: #444444;
+  }
+  
+  #footer .credits a {
+    transition: 0.3s;
+  }
+ 
+  
+  #footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #deddec;
+    color: #434175;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+   
+  }
+  
+  #footer .social-links a:hover {
+    background: #5a5af3;
+    color: #fff;
+    text-decoration: none;
+  }
+  .social-links {
+    
+      padding-left: 150px;
+  }
+  
+
+
+  /*-- =======================================================
+
+  * Template Name: IT Solutions Agency
+  * Author: ZAHID HASAN
+``* Author;s gitHub: https://github.com/mr-zahid/project
+  * Author;s Linkedin: https://www.linkedin.com/in/zahid-hasan-9894811b5/
+  * Author's Email: zahidhasan4306@gmail.com
+
+  ======================================================== */
+
+  
